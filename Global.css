@@ -1,0 +1,28 @@
+:root {
+    --forest: #183C30;
+    --sage: #72856A;
+    --cream: #F5F1E7;
+    --earth: #B88A55;
+    --charcoal: #292D27;
+}
+body {
+    padding: 0px 0px;
+    margin: 0px 0;
+}
+
+.navbar {
+    background-color: var(--forest);
+    padding: 16px 24px;
+}
+
+.navbar h1 {
+    color: var(--cream);
+    margin: 0;
+    width: fit-content;
+    text-align: center;
+}
+.navbar h1 span {
+    color: var(--sage);
+    font-size: 0.65em;
+    letter-spacing: 3px;
+}

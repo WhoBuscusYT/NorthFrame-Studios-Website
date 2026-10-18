@@ -1,0 +1,13 @@
+zsharp = type.script
+
+noticed room Global[] (
+    import ZSharp.Browser():
+
+    noticed brain Start[] (
+        Browser.navbar.html.set: '''
+        <div class="navbar">
+            <h1>NorthFrame<br><span>Studios</span></h1>
+        </div>
+        ''':
+    )
+)
